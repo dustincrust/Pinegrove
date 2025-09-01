@@ -1,0 +1,409 @@
+{
+    "key": "group_603807b13586e",
+    "title": "Team Member Bio",
+    "fields": [
+        {
+            "key": "field_60380a54e7241",
+            "label": "Team Member First Name",
+            "name": "team_member_first_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "The team member's first name",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60380a85e7242",
+            "label": "Team Member Last Name",
+            "name": "team_member_last_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "The team member's last name",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_603807bfe723f",
+            "label": "Team Member Image",
+            "name": "team_member_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a portrait of the team member",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_66f2e8036317c",
+            "label": "Team Member contact form avatar",
+            "name": "team_member_avatar_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a portrait of the team member",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_605dff96b4786",
+            "label": "Team Member Credential Initials",
+            "name": "team_member_credential_initials",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter the team member's credentials (ex: CFP®)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60380a3ce7240",
+            "label": "Team Member Title",
+            "name": "team_member_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter the team member's title (ex: Wealth Advisor)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60380a95e7243",
+            "label": "Team Member Phone",
+            "name": "team_member_phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter the contact phone number of the team member with dashes",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60380ac8e7244",
+            "label": "Team Member Fax Number",
+            "name": "team_member_fax_number",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter the team member's fax number",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60380ae4e7245",
+            "label": "Team Member Email Address",
+            "name": "team_member_email_address",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "Enter the team member's email address",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "name@companyname.com",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_60380b08e7246",
+            "label": "Team Member's Office Address",
+            "name": "team_members_office_address",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "The office address of the team member",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_60380b32e7247",
+            "label": "Team Member Bio",
+            "name": "about_the_team_member",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "A brief description about the team member",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60381f62a1d27",
+            "label": "Question 1",
+            "name": "question_1",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "A question for the team member",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60380b6ee7248",
+            "label": "Response 1",
+            "name": "response_1",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter the team member's response to the corresponding question",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60381f62a1d27",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60381f8aa1d28",
+            "label": "Question 2",
+            "name": "question_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "A question for the team member",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60381f62a1d27",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60381fcba1d2c",
+            "label": "Response 2",
+            "name": "response_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter the team member's response to the corresponding question",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60381f8aa1d28",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60381f8ba1d29",
+            "label": "Question 3",
+            "name": "question_3",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "A question for the team member",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60381f8aa1d28",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60381fcca1d2d",
+            "label": "Response 3",
+            "name": "response_3",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter the team member's response to the corresponding question",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60381f8ba1d29",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "team_member"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1727195191
+}

@@ -1,0 +1,892 @@
+{
+    "key": "group_60410819ab081",
+    "title": "Blog Post",
+    "fields": [
+        {
+            "key": "field_67058139a7167",
+            "label": "Post",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_604108e4f1184",
+            "label": "Featured Image",
+            "name": "featured_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select the image to be featured with this post. This image will be used as a placeholder across the site to direct users to this post (optional for In The News posts)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6041097df1185",
+            "label": "Featured Image Caption",
+            "name": "featured_image_caption",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "The text to be displayed as the caption for the featured image (optional)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_604108e4f1184",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60416a33af85c",
+            "label": "Video",
+            "name": "video",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Select a video relating to this post (optional)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_604109bff1186",
+            "label": "Blog Headline",
+            "name": "blog_headline",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "The text to be displayed as the blog headline",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60564cd4120b7",
+            "label": "Subheadline",
+            "name": "subheadline",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "This will be used as subheadline to direct visitors to post. Keep this to a sentence or two at most, as the content will be truncated on the blog page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "media_upload": 0,
+            "toolbar": "full",
+            "delay": 0
+        },
+        {
+            "key": "field_606c92d72f504",
+            "label": "Opening Body",
+            "name": "opening_body",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "The first paragraph of the blog. A continuation from the subheadline",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "media_upload": 0,
+            "toolbar": "full",
+            "delay": 0
+        },
+        {
+            "key": "field_605645f90801c",
+            "label": "Subheading 1",
+            "name": "subheading_1",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60410ac2f118b",
+            "label": "Subheading body 1",
+            "name": "subheading_body_1",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_605645f90801c",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_60410ab2f1189",
+            "label": "Subheading 2",
+            "name": "subheading_2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410a53f1188",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60410b3ff1191",
+            "label": "Subheading body 2",
+            "name": "subheading_body_2",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410ab2f1189",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_60410ab3f118a",
+            "label": "Subheading 3",
+            "name": "subheading_3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410ab2f1189",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60410b48f1192",
+            "label": "Subheading body 3",
+            "name": "subheading_body_3",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410ab3f118a",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_60410b5af1193",
+            "label": "Subheading 4",
+            "name": "subheading_4",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410ab3f118a",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60410b5df1194",
+            "label": "Subheading body 4",
+            "name": "subheading_body_4",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410b5af1193",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_60410b75f1196",
+            "label": "Subheading 5",
+            "name": "subheading_5",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410b5af1193",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60410b78f1197",
+            "label": "Subheading body 5",
+            "name": "subheading_body_5",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410b75f1196",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "default_value": "",
+            "delay": 0
+        },
+        {
+            "key": "field_606c91719e804",
+            "label": "Subheading 6",
+            "name": "subheading_6",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60410b75f1196",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606c91849e805",
+            "label": "Subheading body 6",
+            "name": "subheading_body_6",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91719e804",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_606c91919e806",
+            "label": "Subheading 7",
+            "name": "subheading_7",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91849e805",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606c91bb9e80a",
+            "label": "Subheading body 7",
+            "name": "subheading_body_7",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91919e806",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_606c91979e807",
+            "label": "Subheading 8",
+            "name": "subheading_8",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91919e806",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606c91cb9e80b",
+            "label": "Subheading body 8",
+            "name": "subheading_body_8",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91979e807",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_606c91a39e808",
+            "label": "Subheading 9",
+            "name": "subheading_9",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91979e807",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606c91d69e80c",
+            "label": "Subheading body 9",
+            "name": "subheading_body_9",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91a39e808",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_606c91aa9e809",
+            "label": "Subheading 10",
+            "name": "subheading_10",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "From Forbes: Subheads serve three purposes:\r\n1. They break up the type to make the page more visually appealing\r\n2. They help your reader navigate to important sections.\r\n3. They boost search engine optimization (SEO).",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91a39e808",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606c91df9e80d",
+            "label": "Subheading body 10",
+            "name": "subheading_body_10",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Informative and engaging body to support the corresponding subheading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606c91aa9e809",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_67058146a7168",
+            "label": "Post details",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_67058171a7169",
+            "label": "Do you want change post defualt post author?",
+            "name": "is_custom_post_author",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "if set yes - choose post author to display avatar from user profile account \r\nif set no - post creator will be displayed and his avatar",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "user": "Choose user",
+                "custom": "Custom",
+                "defualt": "Post creator",
+                "teammember": "Choosen team member"
+            },
+            "default_value": "defualt",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6705826e4d641",
+            "label": "Choose post author to display",
+            "name": "choosen_author",
+            "aria-label": "",
+            "type": "user",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_67058171a7169",
+                        "operator": "==",
+                        "value": "user"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "role": "",
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_67058775fb72d",
+            "label": "Custom author name to display",
+            "name": "custom_author_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_67058171a7169",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_67058797fb72e",
+            "label": "Custom author avatar to display",
+            "name": "custom_author_avatar",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_67058171a7169",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_67081ed863077",
+            "label": "Choose team member",
+            "name": "choose_team_member",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "team_member"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": 1,
+            "elements": ""
+        },
+        {
+            "key": "field_67081f27d6aa6",
+            "label": "Short description for CTA",
+            "name": "short_description_for_cta",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_category",
+                "operator": "!=",
+                "value": "category:case-study"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1728585848
+}

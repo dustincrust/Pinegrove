@@ -1,0 +1,15 @@
+# Ignore uploads and other large folders
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore sensitive files
+wp-config.php
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency/build junk
+node_modules/
+vendor/

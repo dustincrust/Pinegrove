@@ -1,0 +1,313 @@
+{
+    "key": "group_60415da7ef1e5",
+    "title": "In The News | Logo Cards",
+    "fields": [
+        {
+            "key": "field_60415e49f0902",
+            "label": "Logo 1",
+            "name": "logo_1",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a logo to display",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60415e7ff0907",
+            "label": "Subtext for Logo 1",
+            "name": "subtext_for_logo_1",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter text to accompany the logo",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e49f0902",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60415e60f0903",
+            "label": "Logo 2",
+            "name": "logo_2",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a logo to display",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e49f0902",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60415ea7f0909",
+            "label": "Subtext for Logo 2",
+            "name": "subtext_for_logo_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter text to accompany the logo",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e60f0903",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60415e72f0904",
+            "label": "Logo 3",
+            "name": "logo_3",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a logo to display",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e60f0903",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60415eadf090a",
+            "label": "Subtext for Logo 3",
+            "name": "subtext_for_logo_3",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter text to accompany the logo",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e72f0904",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_60415e77f0905",
+            "label": "Logo 4",
+            "name": "logo_4",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a logo to display",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e72f0904",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60415eb3f090b",
+            "label": "Subtext for Logo 4",
+            "name": "subtext_for_logo_4",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter text to accompany the logo",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e77f0905",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6810bed764134",
+            "label": "Logo 5",
+            "name": "logo_5",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select a logo to display",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e72f0904",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_6810bed564133",
+            "label": "Subtext for Logo 5",
+            "name": "subtext_for_logo_5",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter text to accompany the logo",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60415e77f0905",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "90"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1745927903
+}

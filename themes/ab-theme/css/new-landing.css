@@ -1,0 +1,672 @@
+/* :root{
+    --pine-fs-text: clamp(13px, 2vw, 16px);
+    --pine-lh-text: clamp(15.8px, 2vw, 24px);
+    --pine-blue:#002440;
+    --pine-teal:#00B3AA;
+  
+    --fluid-20: clamp(1rem, 0.913rem + 0.4348vw, 1.25rem);
+    --fluid-16: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem);
+    --fluid-lh-16: clamp(1rem, 0.8261rem + 0.8696vw, 1.5rem);
+  } */
+
+/* 
+    HEADER
+*/
+.pinegrove-button.--light {
+    background: var(--pine-teal);
+    border-color: var(--pine-teal);
+    color: white;
+}
+
+.pinegrove-button.--light:hover {
+    background: var(--pine-blue);
+    border-color: var(--pine-blue);
+    color: white;
+}
+
+/* 
+    HERO section
+*/
+.hero-section {
+    position: relative;
+    padding: clamp(30px, 5vw, 120px) 0 130px;
+
+
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: clip;
+    backdrop-filter: blur(150px)
+}
+
+.hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-position: center calc(7vw * -1);
+    object-fit: cover;
+    aspect-ratio: unset;
+}
+
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero-content * {
+    color: white;
+}
+
+.question-image {
+    max-width: 26px;
+}
+
+.section-heading {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    /* font-size: 44px;
+    line-height: 57.2px; */
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+    font-size: clamp(24px, 4vw, 44px);
+    line-height: clamp(31px, 5vw, 57px);
+}
+
+.description {
+    font-family: Poppins;
+    font-weight: 400;
+    /* font-size: 16px;
+    line-height: 24px; */
+    letter-spacing: 0%;
+    font-size: clamp(15px, 4vw, 16px);
+    line-height: clamp(22px, 5vw, 24px);
+
+}
+
+
+.description strong {
+    font-weight: 600;
+}
+
+.hero-content .questions {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.hero-content .question-item {
+    box-shadow: 0px 4px 14px 0px #00000040;
+    border: 1.5px solid #FFFFFF4A;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: fit-content;
+    ;
+}
+
+/*
+    ABOUT section
+*/
+.about-section {
+    padding: clamp(50px, 5vw, 70px) 0;
+}
+
+.sub-heading {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--pine-teal);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+
+/*
+  LEARN section
+*/
+.learn-section {
+    background: #F8FAFE;
+    padding: clamp(50px, 5vw, 120px) 0;
+
+}
+
+.learn-content .sub-heading,
+.learn-content .section-heading {
+    text-align: center;
+}
+
+.learn-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.learn-item {
+    max-width: calc(25% - 15px);
+    max-width: 290px;
+    background-color: white;
+    padding: 17px 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.learn-image {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background: #E9F6F9;
+    border-radius: 10px;
+    ;
+
+}
+
+.learn-text {
+
+    font-family: Poppins;
+    font-weight: 600;
+
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--pine-blue);
+    font-size: clamp(15px, 4vw, 16px);
+    line-height: clamp(22px, 5vw, 24px);
+}
+
+/*
+    MEETING section
+*/
+.meeting-section {
+    margin: clamp(50px, 5vw, 120px) 0;
+    position: relative;
+}
+
+.meeting-image__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.meeting-content {
+    padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .meeting-content {
+        padding: 68px 0 68px 65px;
+    }
+}
+
+.meeting-image {
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+
+.meeting-image-bg {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    overflow: clip;
+    display: none;
+}
+
+.meeting-image-mobile {
+    width: 100%;
+}
+
+.meeting-image-mobile img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media (min-width: 992px) {
+    .meeting-image {
+        position: absolute;
+        top: calc(50% - 70px);
+        transform: translateY(-50%);
+        height: 100%;
+        z-index: 2;
+        display: initial;
+    }
+
+    .meeting-image img {
+        height: calc(100% + 70px);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .meeting-image-bg {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        overflow: clip;
+        height: 100%;
+        display: initial;
+    }
+
+    .meeting-image-bg img {
+        height: 100%;
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .meeting-image-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1360px) {
+    .meeting-image-bg img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.meeting-section .row {
+    background: #EDF4FC;
+    border-radius: 10px;
+    ;
+}
+
+.meeting-section .sub-heading {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .meeting-section .sub-heading {
+        text-align: initial;
+    }
+}
+
+.meeting-section .description {
+    text-align: center;
+}
+
+.meeting-section .pinegrove-button {
+    text-transform: initial;
+    padding: 12px;
+    width: 100%;
+    max-width: 470px;
+    text-align: center;
+}
+
+.meeting-section .cta {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .meeting-section .description {
+        text-align: initial;
+    }
+
+    .meeting-section .cta {
+        text-align: left;
+    }
+
+    .meeting-section .pinegrove-button {
+        width: initial;
+    }
+}
+
+.meeting-section h2.section-heading {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .meeting-section h2.section-heading {
+        text-align: initial;
+    }
+}
+
+.partner-section {
+    background: #EDF4FC;
+    padding: clamp(50px, 5vw, 120px) 0;
+}
+
+.partner-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
+    height: 100%;
+}
+
+.home-testimonials {
+    margin: 130px 0;
+    ;
+}
+
+@media (max-width: 991px) {
+    .hero-section {
+        padding-bottom: 100vw;
+
+    }
+
+    .hero-bg:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 70%;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7371323529411764) 90%);
+    }
+
+    .hero-bg img {
+        object-position: bottom;
+    }
+
+    .about-content {
+        padding-bottom: clamp(50px, 5vw, 80px);
+    }
+}
+
+@media (max-width: 767px) {
+    .learn-item {
+        flex-direction: row;
+        column-gap: 10px;
+        min-width: 300px;
+        align-items: center;
+    }
+
+    .learn-text {
+        text-align: left;
+    }
+
+    .learn-image {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        min-height: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .container .container {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .container-fluid .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    html {
+        margin-top: 0px !important;
+        ;
+    }
+
+    header#masthead {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header .pinegrove-button.--light {
+        width: fit-content;
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 1px;
+
+
+    }
+
+    .navbar-brand {
+        width: 150px;
+        background-size: cover;
+        height: 40px;
+
+    }
+
+    .space-top {
+        margin-top: 82px;
+    }
+}
+
+@media (max-width: 350px) {
+    header .pinegrove-button.--light {
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* FOOTER */
+
+.footer-content-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0 20px;
+}
+
+@media (min-width: 992px) {
+    .footer-content-top {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.footer-logo {
+    max-width: 235px;
+}
+
+.footer-description {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+@media (min-width: 992px) {
+    .footer-description {
+        max-width: 440px;
+    }
+}
+
+.footer-content-bottom {
+    padding-bottom: 40px !important;
+}
+
+.footer-content-bottom-inner-wrapper {
+    padding-top: 20px !important;
+    border-top: 1px solid #598A94;
+    border-bottom: 1px solid #598A94;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media (min-width: 992px) {
+    .footer-content-bottom-inner-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.footer-links ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+@media (min-width: 992px) {
+    .footer-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        align-items: center;
+    }
+}
+
+.footer-links ul>li {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .footer-links ul>li {
+        margin-bottom: 0;
+    }
+}
+
+.copyright {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .copyright {
+        margin-top: 0;
+    }
+}
+
+/* TESTIMONIALS */
+
+.page-template-landing-page .home-testimonials {
+    margin-bottom: 0;
+}
+
+.contactForm__form {
+    border: 24px solid #00B3AA;
+    max-width: 680px;
+    margin: 0 auto;
+
+    margin-top: 30px;
+}
+
+.form-section {
+    padding: clamp(50px, 5vw, 120px) 0;
+}
+
+.form_acceptance .choice-1 input {
+    min-height: 1px !important;
+}
+
+@media (max-width:575px) {
+
+    /*     .form-section {
+        margin-left: -10px;
+        margin-right: -10px;
+    } */
+    .partner-content {
+        padding-right: 0px;
+    }
+
+}
+
+.form-section .sub-heading {
+    text-align: center;
+}
+
+.form-section .section-heading {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-section .description {
+    display: flex;
+    justify-content: center;
+}
+
+.form-section .description .learn-item {
+    display: flex;
+    flex-direction: row;
+    background: #F8FAFE;
+    column-gap: 20px;
+    max-width: 450px;
+}
+
+.form-section .description .learn-text {
+    font-weight: 400;
+}
+
+.form-section .description .learn-image {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+/* GLOBALS */
+
+h2.section-heading {
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31.2px;
+}
+
+@media (min-width: 992px) {
+    h2.section-heading {
+        font-size: 34px;
+        line-height: 44.2px;
+        text-align: initial;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-template-landing-page .container {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1360px) {
+    .page-template-landing-page .container {
+        max-width: 1280px;
+    }
+}
